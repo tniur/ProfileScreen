@@ -16,7 +16,7 @@ final class EditProfileViewController: UIViewController {
     // MARK: - Properties
     
     var profile: Profile?
-    var delegate: EditProfileViewControllerDelegate?
+    weak var delegate: EditProfileViewControllerDelegate?
     
     // MARK: - View
     
